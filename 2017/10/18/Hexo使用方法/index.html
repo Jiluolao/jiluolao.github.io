@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Jiluolao&#39;Blog</title>
+  <title>Hexo使用方法 | Jiluolao&#39;Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="jiluolao博客">
-<meta name="keywords" content="前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jiluolao&#39;Blog">
-<meta property="og:url" content="http://jiluolao.com/index.html">
+  <meta name="description" content="由于机缘巧合，最近上网看到一个博主的个人博客网站，它非常好。引起我也想搭建一个网站的兴趣。对网站有些许了解的我最终找到这个网站的核心：hexo框架。经过不断的煎熬，我也终于搭建完成属于我自己的个人博客，博客地址：jiluolao.xyz下面是我对hexo在 Windows电脑上 搭建方法的总结，写的不好还请见谅，欢迎大家指正修改。 什么是hexo？Hexo 是一个快速、简洁且高效的博客框架。Hex">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo使用方法">
+<meta property="og:url" content="http://jiluolao.com/2017/10/18/Hexo使用方法/index.html">
 <meta property="og:site_name" content="Jiluolao&#39;Blog">
-<meta property="og:description" content="jiluolao博客">
+<meta property="og:description" content="由于机缘巧合，最近上网看到一个博主的个人博客网站，它非常好。引起我也想搭建一个网站的兴趣。对网站有些许了解的我最终找到这个网站的核心：hexo框架。经过不断的煎熬，我也终于搭建完成属于我自己的个人博客，博客地址：jiluolao.xyz下面是我对hexo在 Windows电脑上 搭建方法的总结，写的不好还请见谅，欢迎大家指正修改。 什么是hexo？Hexo 是一个快速、简洁且高效的博客框架。Hex">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://mir-s3-cdn-cf.behance.net/project_modules/1400/08f1a457579679.59dcfd1608c9f.png">
+<meta property="og:updated_time" content="2017-10-20T12:09:37.843Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jiluolao&#39;Blog">
-<meta name="twitter:description" content="jiluolao博客">
+<meta name="twitter:title" content="Hexo使用方法">
+<meta name="twitter:description" content="由于机缘巧合，最近上网看到一个博主的个人博客网站，它非常好。引起我也想搭建一个网站的兴趣。对网站有些许了解的我最终找到这个网站的核心：hexo框架。经过不断的煎熬，我也终于搭建完成属于我自己的个人博客，博客地址：jiluolao.xyz下面是我对hexo在 Windows电脑上 搭建方法的总结，写的不好还请见谅，欢迎大家指正修改。 什么是hexo？Hexo 是一个快速、简洁且高效的博客框架。Hex">
+<meta name="twitter:image" content="https://mir-s3-cdn-cf.behance.net/project_modules/1400/08f1a457579679.59dcfd1608c9f.png">
   
     <link rel="alternative" href="/atom.xml" title="Jiluolao&#39;Blog" type="application/atom+xml">
   
@@ -29,9 +32,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -43,8 +43,8 @@
           rootUrl: '/',
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -216,149 +216,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/10/21/hello-world/" class="article-date">
-      <time datetime="2017-10-21T15:43:52.216Z" itemprop="datePublished">2017-10-21</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/21/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-域名绑定" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/10/20/域名绑定/" class="article-date">
-      <time datetime="2017-10-20T12:02:18.000Z" itemprop="datePublished">2017-10-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/20/域名绑定/">域名绑定</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>因为使用Hexo搭建个人博客是托管在github之上，每次访问都要使用<a href="xinxita.github.io">xinxita.github.io</a>这个域名，要是想别人在其它设备上访问自己的博客，这个域名别人记得很麻烦也很难记得了，因此一个常用格式.com或.cn等域名，就有利于别人的访问。通过查阅hexo官方文档发现，github pages是支持域名绑定的。</p>
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>国内国外有很多的域名供应商，选择一个好的机构购买域名，会为自己的站点配置节约很多时间，也不会因为域名的出错，导致影响百度对我们个人博客的收录。近几年来，国内做的比较好的域名供应商有阿里云的万网。我就是在阿里云的万网购买的域名jiluolao.com(现在买.com域名会免费送.xyz域名一年)我现在使用的是jiluolao.xyz搭建我的博客。<br><img src="http://oy0mgcj39.bkt.clouddn.com/p2.PNG" alt=""><br>个人建议如果只是作为自己的博客使用建议不要购买.com的域名，应为.com域名审核比较慢也贵，推荐购买.top域名<br><img src="http://oy0mgcj39.bkt.clouddn.com/p1.PNG" alt=""><br>.top域名首年3块钱，新注账号十年的价格147。续费价格：16块/年。</p>
-<h2 id="添加域名解析"><a href="#添加域名解析" class="headerlink" title="添加域名解析"></a>添加域名解析</h2><ul>
-<li>登录进入万网的域名控制台，点击”域名和网站”中的”云DNS”</li>
-<li>点击对应域名的”解析”<br><img src="http://oy0mgcj39.bkt.clouddn.com/p3.PNG" alt=""></li>
-<li>按照顺序填入自己的信息</li>
-</ul>
-<p>点击添加解析，记录类型选A或CNAME，A记录的记录值就是ip地址，github(官方文档)提供了两个IP地址，192.30.252.153和192.30.252.154，这两个IP地址为github的服务器地址，两个都要填上，解析记录设置两个@和www，线路就默认就行了，CNAME记录值填你的github博客网址。如我的是xinxita.github.io，具体可以看结果图。</p>
-<p>最后结果就是：<img src="http://oy0mgcj39.bkt.clouddn.com/p4.PNG" alt=""></p>
-<blockquote>
-<blockquote>
-<p><em>这些全部设置完成后，此时你并不能要申请的域名访问你的博客。接着你需要做的是在hexo根目录的source文件夹里创建CNAME文件，不带任何后缀，里面添加你的域名信息，如：jiluolao.xyz。实践证明如果此时你填写的是www.jiluolao.xyz那么以后你只能用www.jiluolao.xyz访问，而如果你填写的是jiluolao.xyz。那么用www.jiluolao.xyz和jiluolao.xyz访问都是可以访问的。</em><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure></p>
-</blockquote>
-</blockquote>
-<p>发布之后即可使用新的域名访问你的博客，如果你还是访问不了，检查一下是否配置正确，确保正确无误之后可以稍等几分钟，因为阿里云跟GitHub之间有时差。也可能是浏览器缓存的问题，可以换一个浏览器访问看看。谢谢看官。。。</p>
-
-      
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Skill/">Skill</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Skill/">Skill</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Hexo使用方法" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Hexo使用方法" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2017/10/18/Hexo使用方法/" class="article-date">
@@ -374,12 +232,27 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/18/Hexo使用方法/">Hexo使用方法</a>
+    <h1 class="article-title" itemprop="name">
+      Hexo使用方法
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Skill/">Skill</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -398,109 +271,186 @@
 
       
       
-    </div>
-    
-    <div class="article-info article-info-index">
+        <div class="page-reward">
+          <p><a href="javascript:void(0)" onclick="dashangToggle()" class="dashang">赏</a></p>
+          <div class="hide_box"></div>
+          <div class="shang_box">
+            <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()">×</a>
+            <div class="shang_tit">
+              <p>纯属好玩</p>
+            </div>
+            <div class="shang_payimg">
+              <img src="/img/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
+            </div>
+              <div class="pay_explain">扫码打赏，你说多少就多少</div>
+            <div class="shang_payselect">
+              
+                <div class="pay_item checked" data-id="alipay">
+                  <span class="radiobox"></span>
+                  <span class="pay_logo"><img src="/img/alipay.png" alt="支付宝" /></span>
+                </div>
+              
+              
+                <div class="pay_item" data-id="wechat">
+                  <span class="radiobox"></span>
+                  <span class="pay_logo"><img src="/img/weixin.png" alt="微信" /></span>
+                </div>
+              
+            </div>
+            <div class="shang_info">
+              <p>打开<span id="shang_pay_txt">支付宝</span>扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+        <script type="text/javascript">
+          $(".pay_item").click(function(){
+            $(this).addClass('checked').siblings('.pay_item').removeClass('checked');
+            var dataid=$(this).attr('data-id');
+            $(".shang_payimg img").attr("src","/img/"+dataid+"img.jpg");
+            $("#shang_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
+          });
+          function dashangToggle(){
+            
+            $(".hide_box").fadeToggle();
+            $(".shang_box").fadeToggle();
+          }
+        </script>
       
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Skill/">Skill</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
     </div>
     
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-只适合一个人看的《小幸运》" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/10/10/只适合一个人看的《小幸运》/" class="article-date">
-      <time datetime="2017-10-10T12:02:18.000Z" itemprop="datePublished">2017-10-10</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/10/只适合一个人看的《小幸运》/">只适合一个人看的《小幸运》</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <hr>
-<blockquote>
-<p>小幸运，与你相遇好幸运<br>陪你在这个薄情的世界深情地活着</p>
-</blockquote>
-          
-      
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/生活/">生活</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2017/10/10/只适合一个人看的《小幸运》/#more">阅读全文 >></a>
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2017/10/18/Hexo使用方法/">Hexo使用方法</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Jiluolao 的个人博客">Jiluolao</a></p>
+        <p><span>发布时间:</span>2017年10月18日 - 21时05分</p>
+        <p><span>最后更新:</span>2017年10月20日 - 20时09分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2017/10/18/Hexo使用方法/" title="Hexo使用方法">http://jiluolao.com/2017/10/18/Hexo使用方法/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jiluolao.com/2017/10/18/Hexo使用方法/　　作者: Jiluolao" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
-      
-      <div class="clearfix"></div>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
     </div>
-    
-  </div>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2017/10/20/域名绑定/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          域名绑定
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/10/10/只适合一个人看的《小幸运》/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">只适合一个人看的《小幸运》</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是hexo？"><span class="toc-number">1.</span> <span class="toc-text">什么是hexo？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装前提"><span class="toc-number">2.</span> <span class="toc-text">安装前提</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Node-js和Git的安装方法"><span class="toc-number">3.</span> <span class="toc-text">Node.js和Git的安装方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装-Hexo"><span class="toc-number">4.</span> <span class="toc-text">安装 Hexo</span></a></li></ol>
+</div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
 
 
 
 
 
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 
 
-  
-  
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2017/10/20/域名绑定/" title="上一篇: 域名绑定">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2017/10/10/只适合一个人看的《小幸运》/" title="下一篇: 只适合一个人看的《小幸运》">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/10/21/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/20/域名绑定/">域名绑定</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/18/Hexo使用方法/">Hexo使用方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/10/只适合一个人看的《小幸运》/">只适合一个人看的《小幸运》</a></li></ul>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
